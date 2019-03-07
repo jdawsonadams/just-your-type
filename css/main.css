@@ -5,11 +5,11 @@ html {
 }
 
 .power {
-  font-family: "Notable", sans-serif;
+  font-family: Notable, sans-serif;
   color: rgb(239, 16, 16);
 }
 
-p {
+div {
   text-align: center;
 }
 
