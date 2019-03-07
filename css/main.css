@@ -16,7 +16,7 @@ p {
 .first {
   width: 100%;
   position: absolute;
-  top: 0px;
+  top: 2px;
 }
 
 .second {
@@ -28,7 +28,7 @@ p {
 .third {
   width: 100%;
   position: absolute;
-  top: 75px;
+  top: 3.6em;
 }
 
 @media only screen and (min-width: 90em) {
@@ -38,5 +38,11 @@ p {
 
   .power {
     color: rgb(255, 130, 63);
+  }
+
+  .third {
+    width: 100%;
+    position: absolute;
+    top: 4.7em;
   }
 }
