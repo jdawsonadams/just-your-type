@@ -1,0 +1,42 @@
+html {
+  background-color: rgb(255, 130, 63);
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #fff;
+}
+
+.power {
+  font-family: 'Notable', sans-serif;
+  color: rgb(239, 16, 16);
+}
+
+p {
+  text-align: center;
+}
+
+.first {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.second {
+  width: 100%;
+  position: absolute;
+  top: 5px;
+}
+
+.third {
+  width: 100%;
+  position: absolute;
+  top: 75px;
+}
+
+@media only screen and (min-width: 90em) {
+  html {
+    background-color: rgb(239, 16, 16);
+  }
+
+  .power {
+    color: rgb(255, 130, 63);
+  }
+}
